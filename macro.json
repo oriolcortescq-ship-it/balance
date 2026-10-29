@@ -1,0 +1,256 @@
+{
+ "updatedAt": "2026-10-29T10:20:10+00:00",
+ "days": {
+  "2026-10-29": {
+   "date": "2026-10-29",
+   "updatedAt": "2026-10-29T10:20:10+00:00",
+   "summary": "Jornada de bancos centrales y datos de EE. UU. A las 14:15 decide el BCE: se espera que mantenga el tipo de depósito en el 2,50 % tras la subida de septiembre, con la inflación de la zona euro en el 3,8 %, y los analistas apuntan a una nueva subida en diciembre. Antes, a las 13:30, EE. UU. publica el PIB del tercer trimestre (se espera en torno al 3,2-3,4 %) y la inflación PCE de septiembre. Por la mañana, las ventas minoristas en España cayeron un 1,4 % interanual en septiembre, su peor dato en casi cuatro años, y el sentimiento económico de la zona euro bajó a 96,9. Ayer la Fed mantuvo sus tipos en el 3,75-4,00 % con dos votos a favor de subirlos.",
+   "indicators": [
+    {
+     "label": "Tipo de depósito BCE",
+     "value": "2,50 %",
+     "note": "Antes de la reunión de hoy"
+    },
+    {
+     "label": "Tipos de la Fed",
+     "value": "3,75–4,00 %",
+     "note": "Mantenidos el 28 oct"
+    },
+    {
+     "label": "Inflación zona euro",
+     "value": "3,8 %",
+     "note": "Septiembre · subyacente 2,5 %"
+    },
+    {
+     "label": "Euríbor 12 meses",
+     "value": "3,262 %",
+     "note": "Dato del 27 oct · media de oct. 3,232 %"
+    },
+    {
+     "label": "EUR/USD",
+     "value": "1,1160",
+     "note": "Cierre del 28 oct"
+    },
+    {
+     "label": "Brent",
+     "value": "110,37 $",
+     "note": "Cierre del 28 oct · −1,1 %"
+    }
+   ],
+   "events": [
+    {
+     "id": "es-retail",
+     "time": "09:00",
+     "region": "ES",
+     "name": "Ventas del comercio minorista",
+     "period": "septiembre · interanual corregido",
+     "importance": 2,
+     "previous": "−0,5 %",
+     "note": "INE, corregido de estacionalidad y calendario. Serie original: −1,6 %, la mayor caída en casi cuatro años.",
+     "actual": "−1,4 %"
+    },
+    {
+     "id": "ez-esi",
+     "time": "11:00",
+     "region": "EZ",
+     "name": "Sentimiento económico (ESI)",
+     "period": "octubre",
+     "importance": 2,
+     "previous": "97,5",
+     "note": "Encuesta de la Comisión Europea. Septiembre revisado desde 97,9; por debajo de 100, la media de largo plazo.",
+     "actual": "96,9"
+    },
+    {
+     "id": "us-gdp",
+     "time": "13:30",
+     "region": "US",
+     "name": "PIB (avance)",
+     "period": "T3 · trimestral anualizado",
+     "importance": 3,
+     "forecast": "3,2 %",
+     "previous": "2,2 %",
+     "note": "Las estimaciones van del 3,2 % al 3,4 %; el modelo GDPNow de la Fed de Atlanta apunta al 3,3 %."
+    },
+    {
+     "id": "us-corepce-y",
+     "time": "13:30",
+     "region": "US",
+     "name": "Deflactor PCE subyacente",
+     "period": "septiembre · interanual",
+     "importance": 3,
+     "forecast": "3,1 %",
+     "previous": "3,0 %",
+     "note": "La medida de inflación que sigue la Fed."
+    },
+    {
+     "id": "us-corepce-m",
+     "time": "13:30",
+     "region": "US",
+     "name": "Deflactor PCE subyacente",
+     "period": "septiembre · mensual",
+     "importance": 2,
+     "forecast": "0,3 %",
+     "previous": "0,2 %"
+    },
+    {
+     "id": "us-pce-y",
+     "time": "13:30",
+     "region": "US",
+     "name": "Deflactor PCE general",
+     "period": "septiembre · interanual",
+     "importance": 2,
+     "forecast": "3,6 %",
+     "previous": "3,4 %"
+    },
+    {
+     "id": "us-claims",
+     "time": "13:30",
+     "region": "US",
+     "name": "Peticiones iniciales de subsidio por desempleo",
+     "period": "semana al 24 oct",
+     "importance": 2,
+     "forecast": "200.000",
+     "previous": "194.000"
+    },
+    {
+     "id": "us-spend",
+     "time": "13:30",
+     "region": "US",
+     "name": "Gasto personal",
+     "period": "septiembre · mensual",
+     "importance": 1,
+     "forecast": "0,6 %",
+     "previous": "0,9 %"
+    },
+    {
+     "id": "us-income",
+     "time": "13:30",
+     "region": "US",
+     "name": "Ingresos personales",
+     "period": "septiembre · mensual",
+     "importance": 1,
+     "forecast": "0,3 %",
+     "previous": "0,2 %"
+    },
+    {
+     "id": "ecb-rate",
+     "time": "14:15",
+     "region": "EZ",
+     "name": "Decisión de tipos del BCE",
+     "period": "tipo de depósito",
+     "importance": 3,
+     "forecast": "2,50 %",
+     "previous": "2,50 %",
+     "note": "Tipo principal en el 2,65 % y facilidad marginal en el 2,90 % tras la subida de septiembre. Consenso: pausa ahora y posible subida en diciembre."
+    },
+    {
+     "id": "ecb-pc",
+     "time": "14:45",
+     "region": "EZ",
+     "name": "Rueda de prensa de Christine Lagarde",
+     "period": "",
+     "importance": 3,
+     "note": "Pistas sobre una subida en diciembre y sobre la tensión en la deuda francesa (bono a 10 años por encima del 5 %)."
+    }
+   ],
+   "sources": [
+    {
+     "name": "TradingCharts · calendario EE. UU. 29 oct",
+     "url": "https://forex.tradingcharts.com/economic_calendar/2026-10-29.html?code=USD"
+    },
+    {
+     "name": "TradingView · calendario semana 26-30 oct",
+     "url": "https://www.tradingview.com/chart/XAUUSD/78lQycQP-Economic-Calendar-October-26-30-2026/"
+    },
+    {
+     "name": "Boursorama · agenda macro 29 oct",
+     "url": "https://www.boursorama.com/bourse/actualites/agenda-macro-zonebourse-le-29-octobre-2026-0db8672ed4a6e68bcdebd4e394bf0e88"
+    },
+    {
+     "name": "Moncloa.com · el BCE decide el jueves",
+     "url": "https://www.moncloa.com/2026/10/28/bce-tipos-interes-decision-jueves-3456700/"
+    },
+    {
+     "name": "INE · calendario de publicaciones",
+     "url": "https://www.ine.es/dynt3/Calendario/calenHTML.htm"
+    },
+    {
+     "name": "Trading Economics · sentimiento económico zona euro",
+     "url": "https://tradingeconomics.com/euro-area/economic-optimism-index/news/587628"
+    },
+    {
+     "name": "El blog del Euríbor · análisis 29 oct",
+     "url": "https://www.euribor.com.es/2026/10/29/analisis-de-mercados-29-de-octubre-de-2026-29-octubre-2026/"
+    },
+    {
+     "name": "Bolsamanía · ventas minoristas septiembre",
+     "url": "https://www.bolsamania.com/noticias/economia/ventas-minoristas-bajan-16-septiembre-mayor-descenso-casi-cuatro-anos--23947854.html"
+    },
+    {
+     "name": "FX.co · sentimiento económico zona euro octubre",
+     "url": "https://www.fx.co/en/forex-news/3256690"
+    }
+   ]
+  },
+  "2026-10-28": {
+   "date": "2026-10-28",
+   "updatedAt": "2026-10-29T10:20:10+00:00",
+   "summary": "La Reserva Federal mantuvo su tipo oficial en el 3,75-4,00 % por votación 10-2: Lisa Cook y Beth Hammack pedían subirlo 25 puntos básicos. El comunicado describe el crecimiento como «fuerte» y retira la frase que hablaba de volver al 2 % de inflación; el mercado descuenta un 85 % de probabilidad de subida en diciembre.",
+   "indicators": [
+    {
+     "label": "Tipos de la Fed",
+     "value": "3,75–4,00 %",
+     "note": "Sin cambios"
+    },
+    {
+     "label": "EUR/USD",
+     "value": "1,1160",
+     "note": "Cierre"
+    },
+    {
+     "label": "Brent",
+     "value": "110,37 $",
+     "note": "Cierre · −1,1 %"
+    },
+    {
+     "label": "S&P 500",
+     "value": "7.743",
+     "note": "Cierre · +0,28 %"
+    }
+   ],
+   "events": [
+    {
+     "id": "fed-rate",
+     "time": "19:00",
+     "region": "US",
+     "name": "Decisión de tipos de la Fed",
+     "period": "rango objetivo",
+     "importance": 3,
+     "actual": "3,75–4,00 %",
+     "forecast": "3,75–4,00 %",
+     "previous": "3,75–4,00 %",
+     "note": "Votación 10-2; dos miembros preferían subir 25 pb."
+    },
+    {
+     "id": "fed-pc",
+     "time": "19:30",
+     "region": "US",
+     "name": "Rueda de prensa de Kevin Warsh",
+     "period": "",
+     "importance": 3,
+     "note": "Warsh afirmó que la política no influyó en la decisión antes de las elecciones de mitad de mandato del 3 de noviembre."
+    }
+   ],
+   "sources": [
+    {
+     "name": "Yahoo Finance · directo de la Fed",
+     "url": "https://finance.yahoo.com/economy/policy/live/fed-meeting-live-updates-federal-reserve-october-meeting-kevin-warsh-161129201.html"
+    },
+    {
+     "name": "El blog del Euríbor · análisis 29 oct",
+     "url": "https://www.euribor.com.es/2026/10/29/analisis-de-mercados-29-de-octubre-de-2026-29-octubre-2026/"
+    }
+   ]
+  }
+ }
+}
